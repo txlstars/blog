@@ -5,7 +5,7 @@ title: sean的blog
 
 ---
 
-###{{ page.title }}
+### {{ page.title }}
 
 最新文章
 
