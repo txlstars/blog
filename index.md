@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: sean的blog
+title: 随身笔记
 
 ---
 
