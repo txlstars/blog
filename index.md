@@ -5,7 +5,7 @@ title: 随身笔记
 
 ---
 
-#### [个人简介]({{site.baseurl}}/info)
+#### [个人简介]({{site.baseurl}}/info) &nbsp;&nbsp;&nbsp;&nbsp; [个人收藏]({{site.baseurl}}/search)
 
 #### 最新文章
 
