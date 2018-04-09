@@ -10,7 +10,7 @@ tilte:  开源框架学习
 
 
 ### 开源组件
-+ boost
++ [boost](https://www.boost.org/doc/libs/)
 
 + facebook folly(C++工具箱)
 
@@ -30,3 +30,5 @@ tilte:  开源框架学习
 + [阮一峰](http://www.ruanyifeng.com/home.html)
 
 + [程序员小灰](https://zhuanlan.zhihu.com/c_144466663)
+
+### [工具箱]({{site.baseurl}}/searchs/tools)
