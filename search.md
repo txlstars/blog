@@ -17,6 +17,8 @@ tilte:  开源框架学习
 ### 开源项目
 + LevelDb(单机版BigTable)
 
++ Chrome
+
 ### 经典书籍
 + Modern C++ Design
 
