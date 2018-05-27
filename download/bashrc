@@ -1,0 +1,35 @@
+# 中文设置
+export LANG="zh_CN.UTF-8"
+export LANG_ALL="zh_CN.UTF-8"
+export LANGUAGE="zh_CN.UTF-8"
+
+# tmux支持终端256color
+alias tmux='tmux -2'
+
+# 代理设置
+export http_proxy=
+export https_proxy=
+export no_proxy=localhost, 127.0.0.1
+
+#cheat命令配置
+export EDITOR=/usr/bin/vim
+export CHEATCOLORS=true
+
+#man vim化
+export MANPAGER='most -s'
+
+PATH=/home/seantian/usr/local/bin:/home/seantian/usr/bin:$PATH
+export LD_LIBRARY_PATH=/home/seantian/usr/local/lib:/home/seantian/usr/local/lib64
+export HOME=/home/seantian
+
+# ----------------------------------------------    cpplint start -----------------------------------------------------#
+CPPLINT_COMMON='/home/seantian/usr/bin/cpplint/cpplint.py --filter=-whitespace/braces,-whitespace/parens --linelength=120'
+
+alias cpplint=$CPPLINT_COMMON
+
+alias cpplintall='find ./ \( -path "./wsd" -o -path "./wsd1" \) -prune -o -name "*.h" -print -o -name "*.cpp" -print |
+xargs '$CPPLINT_COMMON
+# ----------------------------------------------    cpplint end    ----------------------------------------------------#
+
+alias bashrc='source /home/seantian/.bashrc'
+
